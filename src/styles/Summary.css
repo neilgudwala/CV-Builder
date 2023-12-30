@@ -20,9 +20,23 @@
 
   .summary-box{
     font-size: 3vh;
-    padding-top: 10px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: none;
+    margin-top: 10px;
     border: none;
-    width: 100%;
+    width: 96%;
     resize: none;
     outline: none;
+    
+  }
+
+  .text-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .summary-box:hover{
+    border: 2px solid black;
   }

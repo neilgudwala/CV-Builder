@@ -7,7 +7,9 @@ function Summary() {
     <div>
       <h1 className='summary'>About Me</h1>
       <div className='line'></div>
+      <div className='text-container'>
       <textarea className='summary-box' name="summary" value={summary} onChange={(e) => setSummary(e.target.value)} placeholder='What makes you stand out?' cols="30" rows="5"></textarea>
+      </div>
     </div>
   );
 }

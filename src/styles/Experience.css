@@ -14,15 +14,20 @@
     margin-top: 3px;
   }
 
-  .summary{
+  .experience{
     margin: 0;
   }
 
-  .summary-box{
+  .experiences-container{
     font-size: 3vh;
     padding-top: 10px;
     border: none;
     width: 100%;
     resize: none;
     outline: none;
+  }
+
+  .job-title{
+    font-size: 1.3rem;
+    font-weight: 700;
   }

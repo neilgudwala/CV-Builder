@@ -116,9 +116,8 @@ img:hover +.upload-svg{
   display: none;
 }
 
-form{
+.personal-info{
   display: flex;
- 
 }
 /* label{
   display: flex;
