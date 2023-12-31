@@ -56,12 +56,12 @@ function Experience(){
     setExperience(updatedExperience);
   };
 
-    return(<div>
+    return(<div className='cv-element secondary'>
       <h1 className='experience'>Experience</h1>
       <div className='line'></div>
       <div className="experiences-container">
         {experience.map((item, i) => (
-          <div key={item.id}>
+          <div className={item.id} key={item.id}>
             <form>
                 <input className="job-title"
                   type="text"
@@ -87,8 +87,8 @@ function Experience(){
                   value={item.city}
                   onChange={onExperienceChange}
                 /> <br />
-              <div>
-                  <label htmlFor="from">From</label>
+              <div className='date-input'>
+                  <label htmlFor="from"> From </label>
                   <input className="dates"
                     type="date"
                     name="from"
@@ -97,7 +97,7 @@ function Experience(){
                     value={item.from}
                     onChange={onExperienceChange}
                   />
-                  <label htmlFor="to">To</label>
+                  <label htmlFor="to"> To </label>
                   <input className="dates"
                     type="date"
                     name="to"
@@ -107,16 +107,18 @@ function Experience(){
                     onChange={onExperienceChange}
                   />
               </div>
-                <textarea className="description" 
+                <textarea className="description"
                   type="text"
                   name="description"
                   placeholder="What did you do?"
                   data-index={i}
                   value={item.description}
                   onChange={onExperienceChange}
+                  cols='30'
+                  rows='2.5'
                 />
-              <div className="remove-experience">
-                <button
+              <div >
+                <button className="remove-experience"
                   type="button"
                   data-id={item.id}
                   onClick={removeExperience}
@@ -127,8 +129,8 @@ function Experience(){
             </form>
           </div>
         ))}
-        <div className="add-experience">
-          <button type="button" onClick={addExperience}>
+        <div >
+          <button className="add-experience" type="button" onClick={addExperience}>
             Add Experience
           </button>
         </div>

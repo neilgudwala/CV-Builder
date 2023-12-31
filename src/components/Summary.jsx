@@ -4,7 +4,7 @@ import '../styles/Summary.css'
 function Summary() {
   const [summary, setSummary] = React.useState('Experienced web developer with a passion for creating user-friendly and visually appealing websites. Skilled in HTML, CSS, and JavaScript, with a focus on front-end development. Proven track record of delivering high-quality projects on time and within budget.');
   return (
-    <div>
+    <div className='cv-element secondary'>
       <h1 className='summary'>About Me</h1>
       <div className='line'></div>
       <div className='text-container'>

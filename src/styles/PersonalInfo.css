@@ -75,31 +75,35 @@ input:focus{
   height: 15vw;
   position: relative;
   padding: 6px;
+  background-color: white;
+  border-radius: 50%;
+  border: 6px solid black;
 }
 
 img{
   border-radius: 50%;
-  border-color: brown;
-  height: 15vw;
-  padding: 6px;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
   display: block;
   position: absolute;
   top: 0;
   left: 0;
+  
 }
 
 .upload-svg{
   display: none;
-  height: 10vw;
-  width: auto;
+  height:66.7%;
+  width: 66.7%;
   z-index: 9;
   margin: 13%;
   background-color: none;
- 
+  border-radius:10% ;
 }
 
 img:hover{
-    opacity: 40%;
+    opacity: 0%;
     cursor: pointer;
 }
 
@@ -108,7 +112,7 @@ img:hover +.upload-svg{
 }
 
 .img-holder{
-  background-color: black;
+  /* background-color: black; */
 }
 
 .img-upload{

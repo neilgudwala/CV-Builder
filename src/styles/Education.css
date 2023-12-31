@@ -14,11 +14,11 @@
     margin-top: 3px;
   }
 
-  .experience{
+  .education{
     margin: 0;
   }
 
-  .experiences-container{
+  .educations-container{
     font-size: 3vh;
     border: none;
     width: 100%;
@@ -26,10 +26,11 @@
     outline: none;
   }
 
-  .job-title{
+  .degree{
     font-size: 1.3rem;
     font-weight: 700;
     padding-top: 15px;
+    min-width: 100%;
   }
 
   .description{
@@ -54,17 +55,7 @@
     font-size: 0.9rem;
   }
 
-  .remove-experience{
-    display: none;
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    border-radius: 4px;
-    font-weight: bold;
-    height: 25px;
-  }
-
-  .add-experience{
+  .remove-education{
     display: none;
     background-color: white;
     color: black;
@@ -75,21 +66,32 @@
     margin-top: 5px;
   }
 
-  .experiences-container:hover .remove-experience{
+  .add-education{
+    display: none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 5px;
+  }
+
+  .educations-container:hover .remove-education{
       display: block;
   }
-  .experiences-container:hover .add-experience{
+  .educations-container:hover .add-education{
     display: block;
 }
 
-.remove-experience:hover{
+.remove-education:hover{
   background-color: black;
   color: white;
   border: 1px solid black;
   border-radius: 4px;
   font-weight: bold;
 }
-.add-experience:hover{
+.add-education:hover{
   background-color: black;
   color: white;
   border: 1px solid black;
