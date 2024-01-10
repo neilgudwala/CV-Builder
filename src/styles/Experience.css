@@ -88,6 +88,7 @@
   border: 1px solid black;
   border-radius: 4px;
   font-weight: bold;
+  cursor: pointer;
 }
 .add-experience:hover{
   background-color: black;
@@ -95,4 +96,5 @@
   border: 1px solid black;
   border-radius: 4px;
   font-weight: bold;
+  cursor: pointer;
 }

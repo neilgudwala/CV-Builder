@@ -1,18 +1,18 @@
+html{
+  background-color: #f5f5f5;
+}
+
 #root{
-  background-color: #c1c6d0;
+  background-color: #f5f5f5;
+  display: flex;
 }
 
 .display-modal{
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 30px;
-  background-color: white;
-  width: 65%;
-  
-}
-
-.display-modal:hover{
-  /* border: 1px solid black;
-  border-radius: 0px; */
+  background-color: white !important;
+  width: 870px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
 .display-modal:focus-visible{

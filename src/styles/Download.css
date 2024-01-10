@@ -1,0 +1,19 @@
+  .download-btn{
+    display: block;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 5px;
+  }
+
+  .download-btn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }

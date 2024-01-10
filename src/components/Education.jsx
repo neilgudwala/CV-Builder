@@ -8,7 +8,7 @@ function Education(){
         {
           id: uniqid(),
           degree: "Bachelor of Engineering - Computer Science",
-          college: "ABC Corp",
+          college: "University of ABC",
           from: "2018-01-01",
           to: "2020-12-31",
         }
